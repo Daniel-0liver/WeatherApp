@@ -8,7 +8,7 @@
 
 # How to use
 ## Go to build folder
-## On terminal type:
+### On terminal type:
 ```shell
 make && ./WeatherApp
 ```
