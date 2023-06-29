@@ -1,0 +1,4 @@
+/home/oliver/myProjects/WeatherApp/build/CMakeFiles/rebuild_cache.dir
+/home/oliver/myProjects/WeatherApp/build/CMakeFiles/edit_cache.dir
+/home/oliver/myProjects/WeatherApp/build/CMakeFiles/WeatherApp.dir
+/home/oliver/myProjects/WeatherApp/build/CMakeFiles/WeatherApp_autogen.dir
