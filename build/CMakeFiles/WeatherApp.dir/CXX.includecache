@@ -6,26 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../weatherapp.h
-QMainWindow
--
-QDialog
--
-QLabel
--
-
-/home/oliver/myProjects/WeatherApp/build/WeatherApp_autogen/EWIEGA46WW/moc_weatherapp.cpp
-weatherapp.h
-/home/oliver/myProjects/WeatherApp/build/WeatherApp_autogen/EWIEGA46WW/weatherapp.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/oliver/myProjects/WeatherApp/build/WeatherApp_autogen/mocs_compilation.cpp
-EWIEGA46WW/moc_weatherapp.cpp
-/home/oliver/myProjects/WeatherApp/build/WeatherApp_autogen/EWIEGA46WW/moc_weatherapp.cpp
-
 /home/oliver/myProjects/WeatherApp/weatherapp.cpp
 weatherapp.h
 /home/oliver/myProjects/WeatherApp/weatherapp.h

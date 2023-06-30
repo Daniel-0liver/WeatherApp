@@ -45,13 +45,11 @@ void WeatherApp::closeTemperatureDialog()
 void WeatherApp::searchButtonClicked()
 {
     QString city = ui->searchLineEdit->text();
-
     QString apiKey = "489b3812e338e39828ef74e51310e92d";
     QString apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
-
-    QNetworkAccessManager *manager = new QNetworkAccessManager(this);
-    QNetworkRequest request;
-    request.setUrl(QUrl(apiUrl));
+	QNetworkAccessManager *manager = new QNetworkAccessManager(this);
+	QNetworkRequest request;
+	request.setUrl(QUrl(apiUrl));
 
     QNetworkReply *reply = manager->get(request);
     connect(reply, &QNetworkReply::finished, this, [=]() {
@@ -68,7 +66,7 @@ void WeatherApp::searchButtonClicked()
                     QString temperatureString = "Right now in " + city + " it's: " + QString::number(temperature, 'f', 2) + " °C\n\nPress ESC to return.";
 
                     closeTemperatureDialog();
-                    temperatureDialog = new TemperatureDialog(temperatureString, QPixmap("/home/oliver/myProjects/WeatherApp/images/sol.png"), this);
+                    temperatureDialog = new TemperatureDialog(temperatureString, QPixmap("../images/sol.png"), this);
                     temperatureDialog->exec();
                 }
             }
