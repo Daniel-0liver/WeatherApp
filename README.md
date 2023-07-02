@@ -12,4 +12,4 @@
 ```shell
 make && ./WeatherApp
 ```
-# In production
+# Work in progress
