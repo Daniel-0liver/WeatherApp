@@ -6,10 +6,4 @@
 
 ![image](https://github.com/Daniel-0liver/WeatherApp/assets/84101904/7b6b4c6a-6789-4bd8-8748-cb75fd5838c3)
 
-# How to use
-## Go to build folder
-### On terminal type:
-```shell
-make && ./WeatherApp
-```
 # Work in progress
