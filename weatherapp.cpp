@@ -83,7 +83,6 @@ TemperatureDialog::TemperatureDialog(const QString& temperatureString, const QPi
     : QDialog(parent)
 {
     QVBoxLayout* layout = new QVBoxLayout(this);
-
     QHBoxLayout* imageLayout = new QHBoxLayout();
     QSpacerItem* spacerBefore = new QSpacerItem(0, 0, QSizePolicy::Expanding, QSizePolicy::Preferred);
     imageLayout->addItem(spacerBefore);
